@@ -1,16 +1,17 @@
+import FeedBackPeople from './FeedbackFromPeople/feedback'
+
+
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
+    <div>
+      <FeedBackPeople
+        good={good}
+        nature={neutral}
+        bad={bad}
+      />
     </div>
   );
 };
+
+export default App;
