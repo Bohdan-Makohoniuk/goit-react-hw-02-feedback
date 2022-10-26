@@ -45,17 +45,17 @@ class FeedBackPeople extends React.Component {
     
        
     
-    countTotalFeedbackPeople = ({ good, neutral, bad }) => {
-        return (
-            <div>
-                <p>Statistics</p>
-                <p>Good:{good}</p>
-                <p>Neutral:{neutral}</p>
-                <p>Bed:{bad}</p>
-                <p>Total:{() => { }}</p>
-            </div>)
+    // countTotalFeedbackPeople = ({ good, neutral, bad }) => {
+    //     return (
+    //         <div>
+    //             <p>Statistics</p>
+    //             <p>Good:{good}</p>
+    //             <p>Neutral:{neutral}</p>
+    //             <p>Bed:{bad}</p>
+    //             <p>Total:{() => { }}</p>
+    //         </div>)
  
-    };
+    // };
     
 
     render() {

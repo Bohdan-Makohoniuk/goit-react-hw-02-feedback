@@ -6,9 +6,7 @@ export const App = () => {
   return (
     <div>
       <FeedBackPeople
-        good={good}
-        nature={neutral}
-        bad={bad}
+       
       />
     </div>
   );
