@@ -10,7 +10,7 @@ export const Btn = styled.button`
     {background-color:white;
         color: #449aab};
     `
-export const containerBtn =styled.div`
+export const ContainerBtn =styled.div`
     display:flex;
     flex-direction: column;
     align-items: center;
