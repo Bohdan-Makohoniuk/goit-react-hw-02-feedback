@@ -4,6 +4,7 @@ import Section from './Section/Section';
 import Statistics from './Statictics/Statistics';
 import React, { Component } from 'react';
 
+import{Container} from './App.styled'
 
 class App extends Component {
    state = {
@@ -31,7 +32,7 @@ class App extends Component {
    render() {
       const { good, neutral, bad } = this.state;
       return (
-         <div>
+         <Container>
             <Section title="Please leave feedback">
                <FeedbackOptions
                   options={Object.keys(this.state)}
@@ -51,7 +52,7 @@ class App extends Component {
                   />
                )}
             </Section>
-         </div>
+         </Container>
       );
    }
 }
